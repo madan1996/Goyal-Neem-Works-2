@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Goyal Neem Works",
+  "description": "Premium Ayurvedic Store. Buy pure Neem powder, supplements, and herbal oils. Trusted since 1995.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

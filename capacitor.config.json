@@ -1,0 +1,8 @@
+{
+  "appId": "com.goyalneem.works",
+  "appName": "Goyal Neem Works",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

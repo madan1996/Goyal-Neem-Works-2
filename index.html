@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Goyal Neem Works - Pure Ayurveda</title>
+    <link rel="preconnect" href="https://picsum.photos" />
+    <link rel="preconnect" href="https://ui-avatars.com" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              earth: {
+                50: '#fcf9f6',
+                100: '#f5efe6',
+                200: '#eaddc9',
+                300: '#dbc3a5',
+                400: '#c8a17d',
+                500: '#b8855a',
+                600: '#8B5E3B', /* Goyal Accent Brown */
+                700: '#70482d',
+                800: '#5a3a25',
+                900: '#452d1d',
+              },
+              herb: {
+                50: '#f2fcf4',
+                100: '#e1f9e6',
+                200: '#c3f2cc',
+                300: '#95e6a5',
+                400: '#5fd276',
+                500: '#2F7A32', /* Goyal Primary Green */
+                600: '#236628',
+                700: '#1e5223',
+                800: '#1a411f',
+                900: '#15361a',
+              }
+            },
+            fontFamily: {
+              sans: ['"Noto Sans"', 'sans-serif'],
+              serif: ['"Playfair Display"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fcf9f6;
+        overscroll-behavior-y: none;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+      .no-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
